@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #0f172a;
+    color: white;
+}
+
+header {
+    background: #020617;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.xp-container {
+    width: 300px;
+    background: #1e293b;
+    border-radius: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#xp-bar {
+    height: 20px;
+    width: 0%;
+    background: #22c55e;
+}
